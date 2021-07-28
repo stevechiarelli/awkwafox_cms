@@ -1,3 +1,3 @@
-# Strapi application
+# Awkwa Fox CMS
 
-A quick description of your strapi application
+Headless CMS Strapi Application
