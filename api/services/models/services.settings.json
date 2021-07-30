@@ -1,0 +1,56 @@
+{
+  "kind": "collectionType",
+  "collectionName": "services",
+  "info": {
+    "name": "Services"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "description": {
+      "type": "string",
+      "required": true
+    },
+    "category": {
+      "type": "enumeration",
+      "enum": [
+        "videography",
+        "livestream",
+        "webdesign"
+      ],
+      "required": true,
+      "enumName": "category"
+    },
+    "subcategory": {
+      "type": "string",
+      "required": true
+    },
+    "price": {
+      "type": "decimal",
+      "required": true
+    },
+    "package": {
+      "type": "boolean",
+      "required": true
+    },
+    "addon": {
+      "type": "boolean",
+      "required": true
+    },
+    "active": {
+      "type": "boolean",
+      "required": true
+    },
+    "featured": {
+      "type": "boolean",
+      "required": true
+    },
+    "details": {
+      "type": "text"
+    }
+  }
+}

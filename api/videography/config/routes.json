@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/videography",
+      "handler": "videography.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/videography",
+      "handler": "videography.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/videography",
+      "handler": "videography.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

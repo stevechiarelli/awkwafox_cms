@@ -1,0 +1,46 @@
+{
+  "kind": "singleType",
+  "collectionName": "web_designs",
+  "info": {
+    "name": "Web Design",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.hero-content"
+    },
+    "About": {
+      "type": "component",
+      "repeatable": true,
+      "component": "sections.about"
+    },
+    "Info": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.info"
+    },
+    "Features": {
+      "type": "component",
+      "repeatable": true,
+      "component": "sections.features"
+    },
+    "CTA": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.cta"
+    },
+    "Meta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "components.meta"
+    }
+  }
+}

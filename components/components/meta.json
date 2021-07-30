@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_components_metas",
+  "info": {
+    "name": "Meta",
+    "icon": "file-code"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "keywords": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

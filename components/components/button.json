@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_components_buttons",
+  "info": {
+    "name": "button",
+    "icon": "toggle-on"
+  },
+  "options": {},
+  "attributes": {
+    "buttonText": {
+      "type": "string",
+      "required": true
+    },
+    "buttonURL": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

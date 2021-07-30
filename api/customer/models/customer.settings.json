@@ -1,0 +1,109 @@
+{
+  "kind": "collectionType",
+  "collectionName": "customers",
+  "info": {
+    "name": "Customer"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "private": true
+    },
+    "email": {
+      "type": "email",
+      "required": true,
+      "private": true
+    },
+    "phone": {
+      "type": "string",
+      "required": true,
+      "private": true
+    },
+    "referral": {
+      "type": "string",
+      "private": true
+    },
+    "total": {
+      "type": "decimal",
+      "required": true,
+      "default": 0,
+      "private": true
+    },
+    "category": {
+      "type": "enumeration",
+      "enum": [
+        "videography",
+        "livestream",
+        "webdesign"
+      ],
+      "required": true,
+      "enumName": "category",
+      "default": "videography"
+    },
+    "date": {
+      "type": "date"
+    },
+    "scheduled": {
+      "type": "boolean",
+      "default": false
+    },
+    "location": {
+      "type": "string"
+    },
+    "requests": {
+      "type": "text",
+      "private": true
+    },
+    "details": {
+      "type": "text",
+      "private": true
+    },
+    "spouseName": {
+      "type": "string",
+      "private": true
+    },
+    "flashdrive": {
+      "type": "boolean",
+      "private": true
+    },
+    "footage": {
+      "type": "boolean",
+      "private": true
+    },
+    "ceremony": {
+      "type": "boolean",
+      "private": true
+    },
+    "ceremonyEdit": {
+      "type": "boolean",
+      "private": true
+    },
+    "trailer": {
+      "type": "boolean",
+      "private": true
+    },
+    "montage": {
+      "type": "boolean",
+      "private": true
+    },
+    "website": {
+      "type": "boolean",
+      "private": true
+    },
+    "cms": {
+      "type": "boolean",
+      "private": true
+    },
+    "dbms": {
+      "type": "boolean",
+      "private": true
+    }
+  }
+}

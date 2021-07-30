@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_components_list_items",
+  "info": {
+    "name": "ListItem",
+    "icon": "th-list"
+  },
+  "options": {},
+  "attributes": {
+    "item": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

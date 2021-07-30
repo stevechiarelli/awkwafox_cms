@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_hero_hero_contents",
+  "info": {
+    "name": "Hero",
+    "icon": "money-check-alt",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string",
+      "required": true
+    },
+    "subheading": {
+      "type": "text",
+      "required": true
+    },
+    "buttonText": {
+      "type": "string",
+      "required": true
+    },
+    "buttonURL": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
