@@ -2,7 +2,7 @@
   "kind": "singleType",
   "collectionName": "contacts",
   "info": {
-    "name": "Contact",
+    "name": "contact",
     "description": ""
   },
   "options": {

@@ -1,8 +1,9 @@
 {
   "collectionName": "components_components_metas",
   "info": {
-    "name": "Meta",
-    "icon": "file-code"
+    "name": "meta",
+    "icon": "file-code",
+    "description": ""
   },
   "options": {},
   "attributes": {

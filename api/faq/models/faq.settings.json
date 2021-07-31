@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "faqs",
   "info": {
-    "name": "FAQ"
+    "name": "faq",
+    "description": ""
   },
   "options": {
     "increments": true,

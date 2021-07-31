@@ -1,8 +1,9 @@
 {
   "collectionName": "components_sections_abouts",
   "info": {
-    "name": "About",
-    "icon": "user-edit"
+    "name": "about",
+    "icon": "user-edit",
+    "description": ""
   },
   "options": {},
   "attributes": {

@@ -1,8 +1,9 @@
 {
   "collectionName": "components_sections_features",
   "info": {
-    "name": "Features",
-    "icon": "thumbs-up"
+    "name": "features",
+    "icon": "thumbs-up",
+    "description": ""
   },
   "options": {},
   "attributes": {

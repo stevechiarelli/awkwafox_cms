@@ -1,8 +1,9 @@
 {
   "collectionName": "components_components_list_items",
   "info": {
-    "name": "ListItem",
-    "icon": "th-list"
+    "name": "listitem",
+    "icon": "th-list",
+    "description": ""
   },
   "options": {},
   "attributes": {

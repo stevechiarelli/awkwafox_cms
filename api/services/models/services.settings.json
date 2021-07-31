@@ -2,12 +2,13 @@
   "kind": "collectionType",
   "collectionName": "services",
   "info": {
-    "name": "Services"
+    "name": "services",
+    "description": ""
   },
   "options": {
     "increments": true,
     "timestamps": true,
-    "draftAndPublish": true
+    "draftAndPublish": false
   },
   "pluginOptions": {},
   "attributes": {
