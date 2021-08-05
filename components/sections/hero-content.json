@@ -22,6 +22,18 @@
     "buttonURL": {
       "type": "string",
       "required": true
+    },
+    "background": {
+      "type": "enumeration",
+      "enum": [
+        "home",
+        "videography",
+        "livestream",
+        "webdesign"
+      ],
+      "required": true,
+      "default": "home",
+      "enumName": "background"
     }
   }
 }

@@ -9,7 +9,7 @@
   "attributes": {
     "item": {
       "type": "string",
-      "required": true
+      "required": false
     }
   }
 }

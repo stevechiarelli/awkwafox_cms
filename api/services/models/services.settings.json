@@ -8,7 +8,7 @@
   "options": {
     "increments": true,
     "timestamps": true,
-    "draftAndPublish": false
+    "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
@@ -39,10 +39,6 @@
       "required": true
     },
     "addon": {
-      "type": "boolean",
-      "required": true
-    },
-    "active": {
       "type": "boolean",
       "required": true
     },

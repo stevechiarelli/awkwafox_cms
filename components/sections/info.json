@@ -9,21 +9,32 @@
   "attributes": {
     "heading": {
       "type": "string",
-      "required": true
+      "required": false
     },
     "subheading": {
       "type": "string",
-      "required": true
+      "required": false
     },
     "List": {
       "type": "component",
       "repeatable": true,
       "component": "components.list-item",
-      "required": true
+      "required": false
     },
     "content": {
       "type": "text",
-      "required": true
+      "required": false
+    },
+    "background": {
+      "type": "enumeration",
+      "enum": [
+        "home",
+        "videography",
+        "livestream",
+        "webdesign"
+      ],
+      "required": true,
+      "enumName": "background"
     }
   }
 }

@@ -29,10 +29,6 @@
       ],
       "required": true,
       "enumName": "category"
-    },
-    "active": {
-      "type": "boolean",
-      "required": true
     }
   }
 }

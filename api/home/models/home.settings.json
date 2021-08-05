@@ -19,8 +19,13 @@
     },
     "About": {
       "type": "component",
-      "repeatable": false,
+      "repeatable": true,
       "component": "sections.about"
+    },
+    "info": {
+        "type": "component",
+        "repeatable": false,
+        "component": "sections.info"
     },
     "CTA": {
       "type": "component",
