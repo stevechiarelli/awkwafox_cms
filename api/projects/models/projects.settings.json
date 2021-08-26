@@ -29,7 +29,8 @@
     },
     "featured": {
       "type": "boolean",
-      "required": true
+      "required": true,
+      "default": false
     },
     "image": {
       "model": "file",
@@ -42,6 +43,10 @@
       "plugin": "upload",
       "required": true,
       "pluginOptions": {}
+    },
+    "alt": {
+        "type": "string",
+        "required": true
     },
     "description": {
       "type": "text",

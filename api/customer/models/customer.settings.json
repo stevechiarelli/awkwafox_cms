@@ -72,39 +72,48 @@
     },
     "flashdrive": {
       "type": "boolean",
-      "private": true
+      "private": true,
+      "default": false
     },
     "footage": {
       "type": "boolean",
-      "private": true
+      "private": true,
+      "default": false
     },
     "ceremony": {
       "type": "boolean",
-      "private": true
+      "private": true,
+      "default": false
     },
     "ceremonyEdit": {
       "type": "boolean",
-      "private": true
+      "private": true,
+      "default": false
     },
     "trailer": {
       "type": "boolean",
-      "private": true
+      "private": true,
+      "default": false
     },
     "montage": {
       "type": "boolean",
-      "private": true
+      "private": true,
+      "default": false
     },
     "website": {
       "type": "boolean",
-      "private": true
+      "private": true,
+      "default": false
     },
     "cms": {
       "type": "boolean",
-      "private": true
+      "private": true,
+      "default": false
     },
     "dbms": {
       "type": "boolean",
-      "private": true
+      "private": true,
+      "default": false
     }
   }
 }

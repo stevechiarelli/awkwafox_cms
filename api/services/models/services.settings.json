@@ -30,21 +30,28 @@
       "type": "string",
       "required": true
     },
+    "name": {
+      "type": "string",
+      "required": false
+    },
     "price": {
       "type": "decimal",
       "required": true
     },
     "package": {
       "type": "boolean",
-      "required": true
+      "required": true,
+      "default": false
     },
     "addon": {
       "type": "boolean",
-      "required": true
+      "required": true,
+      "default": false
     },
     "featured": {
       "type": "boolean",
-      "required": true
+      "required": true,
+      "default": false
     },
     "details": {
       "type": "text"
