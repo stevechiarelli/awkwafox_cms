@@ -45,8 +45,8 @@
       "pluginOptions": {}
     },
     "alt": {
-        "type": "string",
-        "required": true
+      "type": "string",
+      "required": true
     },
     "description": {
       "type": "text",
