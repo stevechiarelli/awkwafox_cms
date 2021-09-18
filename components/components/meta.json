@@ -18,6 +18,19 @@
     "keywords": {
       "type": "text",
       "required": true
+    },
+    "successHeading": {
+      "type": "string",
+      "required": true
+    },
+    "successBody": {
+      "type": "text",
+      "required": true
+    },
+    "redirectURL": {
+      "type": "string",
+      "required": true,
+      "default": "/"
     }
   }
 }
