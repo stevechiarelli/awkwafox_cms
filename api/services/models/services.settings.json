@@ -26,11 +26,11 @@
       "required": true,
       "enumName": "category"
     },
-    "subcategory": {
+    "name": {
       "type": "string",
       "required": true
     },
-    "name": {
+    "disabledPackageList": {
       "type": "string",
       "required": false
     },
