@@ -27,6 +27,11 @@
       "repeatable": false,
       "component": "sections.info"
     },
+    "WebDesign": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.web-design"
+    },
     "Features": {
       "type": "component",
       "repeatable": true,
