@@ -29,7 +29,8 @@
         "home",
         "videography",
         "livestream",
-        "webdesign"
+        "webdesign1",
+        "webdesign2"
       ],
       "required": true,
       "default": "home",

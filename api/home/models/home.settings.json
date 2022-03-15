@@ -22,11 +22,6 @@
       "repeatable": true,
       "component": "sections.about"
     },
-    "Featured": {
-      "type": "component",
-      "repeatable": true,
-      "component": "sections.featured"
-    },
     "info": {
       "type": "component",
       "repeatable": false,
