@@ -17,7 +17,7 @@
      <Wrapper>
        <div className="poweredBy">
          <A key="website" href="https://strapi.io" target="_blank" rel="noopener noreferrer">
-           Awkwa Fox
+           Awkwafox
          </A>
          &nbsp;
          <A

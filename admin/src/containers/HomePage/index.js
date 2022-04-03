@@ -108,7 +108,7 @@ const HomePage = ({ history: { push } }) => {
   return (
     <>
       <FormattedMessage id="HomePage.helmet.title">
-        {title => <PageTitle title="Awkwa Fox Dashboard" />}
+        {title => <PageTitle title="Awkwafox Dashboard" />}
       </FormattedMessage>
       <Container className="container-fluid">
         <div className="row">
